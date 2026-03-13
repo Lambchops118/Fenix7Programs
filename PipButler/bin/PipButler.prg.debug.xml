@@ -3,10 +3,10 @@
 <manifest filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/manifest.xml"/>
 <pcToLineNum>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="1" lineNum="5" parent="globals/PipButlerApp" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="2" lineNum="7" parent="globals/PipButlerView" pc="268435472" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="2" lineNum="6" parent="globals/PipButlerView" pc="268435472" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="3" lineNum="31" parent="globals" pc="268435484" symbol="getApp"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="3" lineNum="32" parent="globals" pc="268435494" symbol="getApp"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="4" lineNum="6" parent="globals/Background" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="4" lineNum="5" parent="globals/Background" pc="268435505" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="5" lineNum="7" parent="globals/Rez" pc="268435517" symbol="&lt;init&gt;"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="6" lineNum="12" parent="globals/PipButlerApp" pc="268435537" symbol="onStart"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="7" lineNum="25" parent="globals/PipButlerApp" pc="268435540" symbol="onSettingsChanged"/>
@@ -16,72 +16,44 @@
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="9" lineNum="7" parent="globals/PipButlerApp" pc="268435582" symbol="initialize"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="9" lineNum="8" parent="globals/PipButlerApp" pc="268435584" symbol="initialize"/>
 <entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerApp.mc" id="10" lineNum="16" parent="globals/PipButlerApp" pc="268435597" symbol="onStop"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="13" lineNum="14" parent="globals/PipButlerView" pc="268435600" symbol="onLayout"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="13" lineNum="15" parent="globals/PipButlerView" pc="268435602" symbol="onLayout"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="15" lineNum="9" parent="globals/PipButlerView" pc="268435636" symbol="initialize"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="15" lineNum="10" parent="globals/PipButlerView" pc="268435638" symbol="initialize"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="25" parent="globals/PipButlerView" pc="268435651" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="27" parent="globals/PipButlerView" pc="268435654" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="28" parent="globals/PipButlerView" pc="268435661" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="29" parent="globals/PipButlerView" pc="268435673" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="30" parent="globals/PipButlerView" pc="268435681" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="31" parent="globals/PipButlerView" pc="268435700" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="32" parent="globals/PipButlerView" pc="268435708" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="35" parent="globals/PipButlerView" pc="268435721" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="36" parent="globals/PipButlerView" pc="268435741" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="37" parent="globals/PipButlerView" pc="268435748" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="40" parent="globals/PipButlerView" pc="268435767" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="43" parent="globals/PipButlerView" pc="268435814" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="44" parent="globals/PipButlerView" pc="268435838" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="45" parent="globals/PipButlerView" pc="268435865" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="48" parent="globals/PipButlerView" pc="268435877" symbol="onUpdate"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="44" parent="globals/Background" pc="268435898" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="45" parent="globals/Background" pc="268435901" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="46" parent="globals/Background" pc="268435912" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="47" parent="globals/Background" pc="268435923" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="48" parent="globals/Background" pc="268435931" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="50" parent="globals/Background" pc="268435944" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="51" parent="globals/Background" pc="268435952" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="52" parent="globals/Background" pc="268435967" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="53" parent="globals/Background" pc="268435982" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="55" parent="globals/Background" pc="268436000" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="56" parent="globals/Background" pc="268436010" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="57" parent="globals/Background" pc="268436020" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="60" parent="globals/Background" pc="268436030" symbol="getScanLineColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="75" parent="globals/Background" pc="268436045" symbol="clampChannel"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="76" parent="globals/Background" pc="268436047" symbol="clampChannel"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="77" parent="globals/Background" pc="268436056" symbol="clampChannel"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="80" parent="globals/Background" pc="268436063" symbol="clampChannel"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="63" parent="globals/Background" pc="268436066" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="64" parent="globals/Background" pc="268436069" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="65" parent="globals/Background" pc="268436083" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="66" parent="globals/Background" pc="268436097" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="68" parent="globals/Background" pc="268436108" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="69" parent="globals/Background" pc="268436115" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="72" parent="globals/Background" pc="268436123" symbol="getScanBandColor"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="8" parent="globals/Background" pc="268436138" symbol="initialize"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="9" parent="globals/Background" pc="268436141" symbol="initialize"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="13" parent="globals/Background" pc="268436159" symbol="initialize"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="16" parent="globals/Background" pc="268436176" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="17" parent="globals/Background" pc="268436179" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="20" parent="globals/Background" pc="268436198" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="21" parent="globals/Background" pc="268436212" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="23" parent="globals/Background" pc="268436220" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="24" parent="globals/Background" pc="268436232" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="25" parent="globals/Background" pc="268436244" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="26" parent="globals/Background" pc="268436253" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="28" parent="globals/Background" pc="268436262" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="30" parent="globals/Background" pc="268436276" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="31" parent="globals/Background" pc="268436287" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="32" parent="globals/Background" pc="268436307" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="33" parent="globals/Background" pc="268436318" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="37" parent="globals/Background" pc="268436357" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="39" parent="globals/Background" pc="268436371" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="40" parent="globals/Background" pc="268436383" symbol="draw"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="13" parent="globals/Rez/Layouts" pc="268436414" symbol="WatchFace"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="14" parent="globals/Rez/Layouts" pc="268436425" symbol="WatchFace"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="16" parent="globals/Rez/Layouts" pc="268436449" symbol="WatchFace"/>
-<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="18" parent="globals/Rez/Layouts" pc="268436565" symbol="WatchFace"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="13" lineNum="13" parent="globals/PipButlerView" pc="268435600" symbol="onLayout"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="13" lineNum="14" parent="globals/PipButlerView" pc="268435602" symbol="onLayout"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="15" lineNum="8" parent="globals/PipButlerView" pc="268435636" symbol="initialize"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="15" lineNum="9" parent="globals/PipButlerView" pc="268435638" symbol="initialize"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="24" parent="globals/PipButlerView" pc="268435651" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="25" parent="globals/PipButlerView" pc="268435654" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="26" parent="globals/PipButlerView" pc="268435666" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="36" parent="globals/PipButlerView" pc="268435755" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="37" parent="globals/PipButlerView" pc="268435779" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="38" parent="globals/PipButlerView" pc="268435793" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" id="17" lineNum="41" parent="globals/PipButlerView" pc="268435805" symbol="onUpdate"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="40" parent="globals/Background" pc="268435826" symbol="getBaseColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="18" lineNum="41" parent="globals/Background" pc="268435828" symbol="getBaseColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="44" parent="globals/Background" pc="268435832" symbol="getScanLineColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="19" lineNum="45" parent="globals/Background" pc="268435834" symbol="getScanLineColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="48" parent="globals/Background" pc="268435838" symbol="getScanBandColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="20" lineNum="49" parent="globals/Background" pc="268435840" symbol="getScanBandColor"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="7" parent="globals/Background" pc="268435844" symbol="initialize"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="8" parent="globals/Background" pc="268435847" symbol="initialize"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="21" lineNum="12" parent="globals/Background" pc="268435865" symbol="initialize"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="15" parent="globals/Background" pc="268435882" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="16" parent="globals/Background" pc="268435885" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="19" parent="globals/Background" pc="268435893" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="20" parent="globals/Background" pc="268435907" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="22" parent="globals/Background" pc="268435915" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="23" parent="globals/Background" pc="268435923" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="24" parent="globals/Background" pc="268435931" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="25" parent="globals/Background" pc="268435940" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="27" parent="globals/Background" pc="268435949" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="29" parent="globals/Background" pc="268435963" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="30" parent="globals/Background" pc="268435974" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="33" parent="globals/Background" pc="268436001" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="35" parent="globals/Background" pc="268436015" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerBackground.mc" id="22" lineNum="36" parent="globals/Background" pc="268436027" symbol="draw"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="13" parent="globals/Rez/Layouts" pc="268436055" symbol="WatchFace"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="14" parent="globals/Rez/Layouts" pc="268436066" symbol="WatchFace"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="16" parent="globals/Rez/Layouts" pc="268436090" symbol="WatchFace"/>
+<entry filename="/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/bin/gen/006-B4595-00/source/Rez.mcgen" id="23" lineNum="18" parent="globals/Rez/Layouts" pc="268436183" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -116,7 +88,6 @@
 <entry id="8389377" method="true" symbol="onExitSleep"/>
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
-<entry id="8" method="true" symbol="clampChannel"/>
 <entry id="8388640" module="true" symbol="Lang"/>
 <entry id="8389068" method="true" symbol="draw"/>
 <entry field="true" id="12" symbol="LauncherIcon"/>
@@ -138,37 +109,26 @@
 <entry id="6" object="true" symbol="PipButlerApp"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
+<entry id="8" method="true" symbol="getBaseColor"/>
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435635" name="dc" stackId="1" startPc="268435600"/>
-<entry arg="true" endPc="268435897" name="dc" stackId="1" startPc="268435651"/>
-<entry endPc="268435896" name="timeFormat" stackId="2" startPc="268435654"/>
-<entry endPc="268435896" name="clockTime" stackId="3" startPc="268435654"/>
-<entry endPc="268435896" name="hours" stackId="4" startPc="268435654"/>
-<entry endPc="268435896" name="timeString" stackId="5" startPc="268435654"/>
-<entry endPc="268435896" name="view" stackId="6" startPc="268435654"/>
-<entry arg="true" endPc="268436044" name="backgroundColor" stackId="1" startPc="268435898"/>
-<entry endPc="268436044" name="red" stackId="2" startPc="268435901"/>
-<entry endPc="268436044" name="green" stackId="3" startPc="268435901"/>
-<entry endPc="268436044" name="blue" stackId="4" startPc="268435901"/>
-<entry endPc="268436044" name="brightness" stackId="5" startPc="268435901"/>
-<entry arg="true" endPc="268436065" name="value" stackId="1" startPc="268436045"/>
-<entry arg="true" endPc="268436137" name="backgroundColor" stackId="1" startPc="268436066"/>
-<entry endPc="268436137" name="red" stackId="2" startPc="268436069"/>
-<entry endPc="268436137" name="green" stackId="3" startPc="268436069"/>
-<entry endPc="268436137" name="blue" stackId="4" startPc="268436069"/>
-<entry endPc="268436174" name="dictionary" stackId="1" startPc="268436141"/>
-<entry arg="true" endPc="268436413" name="dc" stackId="1" startPc="268436176"/>
-<entry endPc="268436412" name="backgroundColor" stackId="2" startPc="268436179"/>
-<entry endPc="268436412" name="scanLineColor" stackId="3" startPc="268436179"/>
-<entry endPc="268436412" name="scanBandColor" stackId="4" startPc="268436179"/>
-<entry endPc="268436412" name="width" stackId="5" startPc="268436179"/>
-<entry endPc="268436412" name="height" stackId="6" startPc="268436179"/>
-<entry endPc="268436356" name="y" stackId="7" startPc="268436287"/>
-<entry endPc="268436412" name="bandY" stackId="8" startPc="268436383"/>
-<entry arg="true" endPc="268436579" name="dc" stackId="1" startPc="268436414"/>
-<entry endPc="268436579" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436425"/>
-<entry endPc="268436579" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436425"/>
+<entry arg="true" endPc="268435825" name="dc" stackId="1" startPc="268435651"/>
+<entry endPc="268435824" name="clockTime" stackId="2" startPc="268435654"/>
+<entry endPc="268435824" name="timeString" stackId="3" startPc="268435654"/>
+<entry endPc="268435824" name="view" stackId="4" startPc="268435654"/>
+<entry endPc="268435880" name="dictionary" stackId="1" startPc="268435847"/>
+<entry arg="true" endPc="268436054" name="dc" stackId="1" startPc="268435882"/>
+<entry endPc="268436053" name="baseColor" stackId="2" startPc="268435885"/>
+<entry endPc="268436053" name="scanLineColor" stackId="3" startPc="268435885"/>
+<entry endPc="268436053" name="scanBandColor" stackId="4" startPc="268435885"/>
+<entry endPc="268436053" name="width" stackId="5" startPc="268435885"/>
+<entry endPc="268436053" name="height" stackId="6" startPc="268435885"/>
+<entry endPc="268436000" name="y" stackId="7" startPc="268435974"/>
+<entry endPc="268436053" name="bandY" stackId="8" startPc="268436027"/>
+<entry arg="true" endPc="268436197" name="dc" stackId="1" startPc="268436055"/>
+<entry endPc="268436197" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268436066"/>
+<entry endPc="268436197" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436066"/>
 </localVars>
 <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4595-00"/>
 <annotations>
@@ -246,26 +206,23 @@
 <functionEntry accessMode="public" name="onHide" parent="PipButlerView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435897" name="onUpdate" parent="PipButlerView" startPc="268435651">
+<functionEntry accessMode="public" endPc="268435825" name="onUpdate" parent="PipButlerView" startPc="268435651">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436044" name="getScanLineColor" parent="Background" startPc="268435898">
-<param id="backgroundColor"/>
+<functionEntry accessMode="public" endPc="268435831" name="getBaseColor" parent="Background" startPc="268435826">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436065" name="clampChannel" parent="Background" startPc="268436045">
-<param id="value"/>
+<functionEntry accessMode="public" endPc="268435837" name="getScanLineColor" parent="Background" startPc="268435832">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436137" name="getScanBandColor" parent="Background" startPc="268436066">
-<param id="backgroundColor"/>
+<functionEntry accessMode="public" endPc="268435843" name="getScanBandColor" parent="Background" startPc="268435838">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436175" name="initialize" parent="Background" startPc="268436138">
+<functionEntry accessMode="public" endPc="268435881" name="initialize" parent="Background" startPc="268435844">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436413" name="draw" parent="Background" startPc="268436176">
+<functionEntry accessMode="public" endPc="268436054" name="draw" parent="Background" startPc="268435882">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
@@ -278,7 +235,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436579" name="WatchFace" parent="Layouts" startPc="268436414">
+<functionEntry accessMode="public" endPc="268436197" name="WatchFace" parent="Layouts" startPc="268436055">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
