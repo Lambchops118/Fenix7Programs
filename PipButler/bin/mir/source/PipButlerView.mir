@@ -15,88 +15,111 @@ class PipButlerView extends WatchUi.WatchFace {
     static
     <init> {
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 8; @position = 17; @symbol_constdef = [TIME_COLOR,8,17,27]; ]
+    protected
+    const TIME_COLOR = 0x00C864;
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 9; @position = 17; @symbol_constdef = [TOP_MARGIN,9,17,27]; ]
+    protected
+    const TOP_MARGIN = 28;
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 10; @position = 17; @symbol_constdef = [BOTTOM_MARGIN,10,17,30]; ]
+    protected
+    const BOTTOM_MARGIN = 28;
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 12; @position = 15; @symbol_vardef = [_isTimeAtBottom,12,15,30]; @symbol_type<0> = [Boolean,12,34,41]; ]
+    protected
+    var _isTimeAtBottom as Boolean = false;
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 13; @position = 15; @symbol_vardef = [_screenHeight,13,15,28]; @symbol_type<0> = [Number,13,32,38]; ]
+    protected
+    var _screenHeight as Number = 0;
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 15; @symbol_functiondef = [initialize,15,13,23]; ]
     function initialize() as Void {
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_8_26_10_4_start:
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 9 8 ]
-        symbol [ WatchFace %tmp.2 9 8 17 ];
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_15_26_17_4_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 16 8 ]
+        symbol [ WatchFace %tmp.2 16 8 17 ];
         %tmp.2 = getv ? :WatchFace;
-        symbol [ initialize %tmp.3 9 18 28 ];
+        symbol [ initialize %tmp.3 16 18 28 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_8_26_10_4_stop:
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_15_26_17_4_stop:
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 13; @symbol_functiondef = [onLayout,13,13,21]; @symbol_param<0> = [dc,13,22,24]; @symbol_param<0>_type<0> = [Dc,13,28,30]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 20; @symbol_functiondef = [onLayout,20,13,21]; @symbol_param<0> = [dc,20,22,24]; @symbol_param<0>_type<0> = [Dc,20,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_13_40_15_4_start:
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 14 8 ]
-        %tmp.1 = self;
-        symbol [ setLayout %tmp.2 14 8 17 ];
-        %tmp.2 = getv function %tmp.1 :setLayout;
-        symbol [ Rez %tmp.4 14 18 21 ];
-        %tmp.4 = getv ? :Rez;
-        symbol [ Layouts %tmp.5 14 22 29 ];
-        %tmp.5 = getv %tmp.4 :Layouts;
-        symbol [ WatchFace %tmp.6 14 30 39 ];
-        %tmp.6 = getv function %tmp.5 :WatchFace;
-        %tmp.7 = lgetv %dc;
-        symbol [ dc %tmp.7 14 40 42 ];
-        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
-        invoke %tmp.1 %tmp.2(%tmp.8);
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_13_40_15_4_stop:
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_20_40_23_4_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 21 8 ]
+        %tmp.1 = lgetv %dc;
+        symbol [ dc %tmp.1 21 24 26 ];
+        symbol [ getHeight %tmp.2 21 27 36 ];
+        %tmp.2 = getv function %tmp.1 :getHeight;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ _screenHeight ? 21 8 21 ];
+        putv self :_screenHeight %tmp.3;
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 22 8 ]
+        %tmp.4 = self;
+        symbol [ setLayout %tmp.5 22 8 17 ];
+        %tmp.5 = getv function %tmp.4 :setLayout;
+        symbol [ Rez %tmp.7 22 18 21 ];
+        %tmp.7 = getv ? :Rez;
+        symbol [ Layouts %tmp.8 22 22 29 ];
+        %tmp.8 = getv %tmp.7 :Layouts;
+        symbol [ WatchFace %tmp.9 22 30 39 ];
+        %tmp.9 = getv function %tmp.8 :WatchFace;
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 22 40 42 ];
+        %tmp.11 = invoke %tmp.8 %tmp.9(%tmp.10);
+        invoke %tmp.4 %tmp.5(%tmp.11);
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_20_40_23_4_stop:
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 20; @symbol_functiondef = [onShow,20,13,19]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 28; @symbol_functiondef = [onShow,28,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 24; @symbol_functiondef = [onUpdate,24,13,21]; @symbol_param<0> = [dc,24,22,24]; @symbol_param<0>_type<0> = [Dc,24,28,30]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 32; @symbol_functiondef = [onUpdate,32,13,21]; @symbol_param<0> = [dc,32,22,24]; @symbol_param<0>_type<0> = [Dc,32,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_start:
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 25 8 ]
-        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_stop" ]
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 33 8 ]
+        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_stop" ]
         %clockTime.1 = local;
-        symbol [ clockTime %clockTime.1 25 12 21 ];
-        symbol [ System %tmp.1 25 24 30 ];
+        symbol [ clockTime %clockTime.1 33 12 21 ];
+        symbol [ System %tmp.1 33 24 30 ];
         %tmp.1 = getm $.Toybox.System;
-        symbol [ getClockTime %tmp.2 25 31 43 ];
+        symbol [ getClockTime %tmp.2 33 31 43 ];
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-        symbol [ clockTime %clockTime.1 25 12 21 ];
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 26 8 ]
-        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_stop" ]
+        symbol [ clockTime %clockTime.1 33 12 21 ];
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 34 8 ]
+        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_stop" ]
         %timeString.2 = local;
-        symbol [ timeString %timeString.2 26 12 22 ];
-        symbol [ Lang %tmp.4 26 25 29 ];
+        symbol [ timeString %timeString.2 34 12 22 ];
+        symbol [ Lang %tmp.4 34 25 29 ];
         %tmp.4 = getm $.Toybox.Lang;
-        symbol [ format %tmp.5 26 30 36 ];
+        symbol [ format %tmp.5 34 30 36 ];
         %tmp.5 = getv function %tmp.4 :format;
         %tmp.6 = "$1$:$2$:$3$";
         %tmp.7 = newa 3;
         %tmp.8 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.8 29 16 25 ];
-        symbol [ hour %tmp.9 29 26 30 ];
+        symbol [ clockTime %tmp.8 37 16 25 ];
+        symbol [ hour %tmp.9 37 26 30 ];
         %tmp.9 = getv %tmp.8 :hour;
-        symbol [ format %tmp.10 29 31 37 ];
+        symbol [ format %tmp.10 37 31 37 ];
         %tmp.10 = getv function %tmp.9 :format;
         %tmp.11 = "%02d";
         %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
         %tmp.13 = dup %tmp.7;
         %tmp.14 = aputv %tmp.13 0 %tmp.12;
         %tmp.15 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.15 30 16 25 ];
-        symbol [ min %tmp.16 30 26 29 ];
+        symbol [ clockTime %tmp.15 38 16 25 ];
+        symbol [ min %tmp.16 38 26 29 ];
         %tmp.16 = getv %tmp.15 :min;
-        symbol [ format %tmp.17 30 30 36 ];
+        symbol [ format %tmp.17 38 30 36 ];
         %tmp.17 = getv function %tmp.16 :format;
         %tmp.18 = "%02d";
         %tmp.19 = invoke %tmp.16 %tmp.17(%tmp.18);
         %tmp.20 = dup %tmp.14;
         %tmp.21 = aputv %tmp.20 1 %tmp.19;
         %tmp.22 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.22 31 16 25 ];
-        symbol [ sec %tmp.23 31 26 29 ];
+        symbol [ clockTime %tmp.22 39 16 25 ];
+        symbol [ sec %tmp.23 39 26 29 ];
         %tmp.23 = getv %tmp.22 :sec;
-        symbol [ format %tmp.24 31 30 36 ];
+        symbol [ format %tmp.24 39 30 36 ];
         %tmp.24 = getv function %tmp.23 :format;
         %tmp.25 = "%02d";
         %tmp.26 = invoke %tmp.23 %tmp.24(%tmp.25);
@@ -104,54 +127,139 @@ _Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerVie
         %tmp.28 = aputv %tmp.27 2 %tmp.26;
         %tmp.29 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.28);
         lputv %timeString.2 %tmp.29;
-        symbol [ timeString %timeString.2 26 12 22 ];
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 36 8 ]
-        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_stop" ]
+        symbol [ timeString %timeString.2 34 12 22 ];
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 44 8 ]
+        [ "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_start" "_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_stop" ]
         %view.3 = local;
-        symbol [ view %view.3 36 12 16 ];
-        symbol [ View %tmp.31 36 19 23 ];
+        symbol [ view %view.3 44 12 16 ];
+        symbol [ View %tmp.31 44 19 23 ];
         %tmp.31 = getv ? :View;
-        symbol [ findDrawableById %tmp.32 36 24 40 ];
+        symbol [ findDrawableById %tmp.32 44 24 40 ];
         %tmp.32 = getv function %tmp.31 :findDrawableById;
         %tmp.33 = "TimeLabel";
         %tmp.34 = invoke %tmp.31 %tmp.32(%tmp.33);
         %tmp.35 = as %tmp.34 Text;
-        symbol [ Text %tmp.35 36 57 61 ];
+        symbol [ Text %tmp.35 44 57 61 ];
         lputv %view.3 %tmp.35;
-        symbol [ view %view.3 36 12 16 ];
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 37 8 ]
+        symbol [ view %view.3 44 12 16 ];
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 45 8 ]
         %tmp.36 = lgetv %view.3;
-        symbol [ view %tmp.36 37 8 12 ];
-        symbol [ setColor %tmp.37 37 13 21 ];
+        symbol [ view %tmp.36 45 8 12 ];
+        symbol [ setColor %tmp.37 45 13 21 ];
         %tmp.37 = getv function %tmp.36 :setColor;
-        %tmp.38 = 0x00C864;
-        invoke %tmp.36 %tmp.37(%tmp.38);
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 38 8 ]
-        %tmp.39 = lgetv %view.3;
-        symbol [ view %tmp.39 38 8 12 ];
-        symbol [ setText %tmp.40 38 13 20 ];
-        %tmp.40 = getv function %tmp.39 :setText;
-        %tmp.41 = lgetv %timeString.2;
-        symbol [ timeString %tmp.41 38 21 31 ];
-        invoke %tmp.39 %tmp.40(%tmp.41);
-[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 41 8 ]
-        symbol [ View %tmp.43 41 8 12 ];
-        %tmp.43 = getv ? :View;
-        symbol [ onUpdate %tmp.44 41 13 21 ];
-        %tmp.44 = getv function %tmp.43 :onUpdate;
-        %tmp.45 = lgetv %dc;
-        symbol [ dc %tmp.45 41 22 24 ];
-        invoke %tmp.43 %tmp.44(%tmp.45);
-_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_24_40_42_4_stop:
+        symbol [ TIME_COLOR %tmp.39 45 22 32 ];
+        %tmp.39 = getv ? :TIME_COLOR;
+        invoke %tmp.36 %tmp.37(%tmp.39);
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 46 8 ]
+        %tmp.40 = lgetv %view.3;
+        symbol [ view %tmp.40 46 8 12 ];
+        %tmp.41 = self;
+        symbol [ getTimeY %tmp.42 46 20 28 ];
+        %tmp.42 = getv function %tmp.41 :getTimeY;
+        %tmp.43 = lgetv %dc;
+        symbol [ dc %tmp.43 46 29 31 ];
+        %tmp.44 = invoke %tmp.41 %tmp.42(%tmp.43);
+        symbol [ locY ? 46 13 17 ];
+        putv %tmp.40 :locY %tmp.44;
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 47 8 ]
+        %tmp.45 = lgetv %view.3;
+        symbol [ view %tmp.45 47 8 12 ];
+        symbol [ setText %tmp.46 47 13 20 ];
+        %tmp.46 = getv function %tmp.45 :setText;
+        %tmp.47 = lgetv %timeString.2;
+        symbol [ timeString %tmp.47 47 21 31 ];
+        invoke %tmp.45 %tmp.46(%tmp.47);
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 50 8 ]
+        symbol [ View %tmp.49 50 8 12 ];
+        %tmp.49 = getv ? :View;
+        symbol [ onUpdate %tmp.50 50 13 21 ];
+        %tmp.50 = getv function %tmp.49 :onUpdate;
+        %tmp.51 = lgetv %dc;
+        symbol [ dc %tmp.51 50 22 24 ];
+        invoke %tmp.49 %tmp.50(%tmp.51);
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_32_40_51_4_stop:
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 47; @symbol_functiondef = [onHide,47,13,19]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 56; @symbol_functiondef = [onHide,56,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 51; @symbol_functiondef = [onExitSleep,51,13,24]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 60; @symbol_functiondef = [onExitSleep,60,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 55; @symbol_functiondef = [onEnterSleep,55,13,25]; ]
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 64; @symbol_functiondef = [onEnterSleep,64,13,25]; ]
     function onEnterSleep() as Void {
+    }
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 67; @symbol_functiondef = [toggleTimePosition,67,13,31]; ]
+    function toggleTimePosition() as Void {
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_67_42_70_4_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 68 8 ]
+        symbol [ _isTimeAtBottom %tmp.2 68 27 42 ];
+        %tmp.2 = getv ? :_isTimeAtBottom;
+        %tmp.3 = not %tmp.2;
+        symbol [ _isTimeAtBottom ? 68 8 23 ];
+        putv self :_isTimeAtBottom %tmp.3;
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 69 8 ]
+        symbol [ WatchUi %tmp.4 69 8 15 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.5 69 16 29 ];
+        %tmp.5 = getv function %tmp.4 :requestUpdate;
+        invoke %tmp.4 %tmp.5();
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_67_42_70_4_stop:
+    }
+    [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 72; @symbol_functiondef = [getTimeY,72,13,21]; @symbol_param<0> = [dc,72,22,24]; @symbol_param<0>_type<0> = [Dc,72,28,30]; @symbol_return<0> = [Number,72,35,41]; ]
+    function getTimeY(dc as Dc) as Number {
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_72_42_82_4_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 73 8 ]
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_8_75_8_if_stmt:
+        symbol [ _screenHeight %tmp.2 73 12 25 ];
+        %tmp.2 = getv ? :_screenHeight;
+        %tmp.3 = 0;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_8_75_8_if_end;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_8_75_8_if_true:
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_32_75_8_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 74 12 ]
+        %tmp.5 = lgetv %dc;
+        symbol [ dc %tmp.5 74 28 30 ];
+        symbol [ getHeight %tmp.6 74 31 40 ];
+        %tmp.6 = getv function %tmp.5 :getHeight;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        symbol [ _screenHeight ? 74 12 25 ];
+        putv self :_screenHeight %tmp.7;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_32_75_8_stop:
+        goto @_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_8_75_8_if_end;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_73_8_75_8_if_end:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 77 8 ]
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_8_79_8_if_stmt:
+        symbol [ _isTimeAtBottom %tmp.9 77 12 27 ];
+        %tmp.9 = getv ? :_isTimeAtBottom;
+        bf %tmp.9 @_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_8_79_8_if_end;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_8_79_8_if_true:
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_29_79_8_start:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 78 12 ]
+        symbol [ _screenHeight %tmp.11 78 19 32 ];
+        %tmp.11 = getv ? :_screenHeight;
+        %tmp.12 = lgetv %dc;
+        symbol [ dc %tmp.12 78 35 37 ];
+        symbol [ getFontHeight %tmp.13 78 38 51 ];
+        %tmp.13 = getv function %tmp.12 :getFontHeight;
+        symbol [ Graphics %tmp.14 78 52 60 ];
+        %tmp.14 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.15 78 61 71 ];
+        %tmp.15 = getv %tmp.14 :FONT_LARGE;
+        %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+        %tmp.17 = sub %tmp.11 %tmp.16;
+        symbol [ BOTTOM_MARGIN %tmp.19 78 75 88 ];
+        %tmp.19 = getv ? :BOTTOM_MARGIN;
+        %tmp.20 = sub %tmp.17 %tmp.19;
+        ret %tmp.20;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_29_79_8_stop:
+        goto @_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_8_79_8_if_end;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_77_8_79_8_if_end:
+[ "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc" 81 8 ]
+        symbol [ TOP_MARGIN %tmp.22 81 15 25 ];
+        %tmp.22 = getv ? :TOP_MARGIN;
+        ret %tmp.22;
+_Users_jacksal1_Desktop_Garmin_Apps_Fenix7Programs_PipButler_source_PipButlerView_mc_72_42_82_4_stop:
     }
 }
 [ @file = "/Users/jacksal1/Desktop/Garmin Apps/Fenix7Programs/PipButler/source/PipButlerView.mc"; @line = 1; ]

@@ -5,12 +5,20 @@ import Toybox.WatchUi;
 
 class PipButlerView extends WatchUi.WatchFace {
 
+    hidden const TIME_COLOR = 0x00C864;
+    hidden const TOP_MARGIN = 28;
+    hidden const BOTTOM_MARGIN = 28;
+
+    hidden var _isTimeAtBottom as Boolean = false;
+    hidden var _screenHeight as Number = 0;
+
     function initialize() {
         WatchFace.initialize();
     }
 
     // Load your resources here
     function onLayout(dc as Dc) as Void {
+        _screenHeight = dc.getHeight();
         setLayout(Rez.Layouts.WatchFace(dc));
     }
 
@@ -34,7 +42,8 @@ class PipButlerView extends WatchUi.WatchFace {
 
         // Update the view
         var view = View.findDrawableById("TimeLabel") as Text;
-        view.setColor(0x00C864);
+        view.setColor(TIME_COLOR);
+        view.locY = getTimeY(dc);
         view.setText(timeString);
 
         // Call the parent onUpdate function to redraw the layout
@@ -53,6 +62,23 @@ class PipButlerView extends WatchUi.WatchFace {
 
     // Terminate any active timers and prepare for slow updates.
     function onEnterSleep() as Void {
+    }
+
+    function toggleTimePosition() as Void {
+        _isTimeAtBottom = !_isTimeAtBottom;
+        WatchUi.requestUpdate();
+    }
+
+    function getTimeY(dc as Dc) as Number {
+        if (_screenHeight == 0) {
+            _screenHeight = dc.getHeight();
+        }
+
+        if (_isTimeAtBottom) {
+            return _screenHeight - dc.getFontHeight(Graphics.FONT_LARGE) - BOTTOM_MARGIN;
+        }
+
+        return TOP_MARGIN;
     }
 
 }

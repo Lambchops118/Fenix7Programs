@@ -4,6 +4,8 @@ import Toybox.WatchUi;
 
 class PipButlerApp extends Application.AppBase {
 
+    hidden var _view as PipButlerView?;
+
     function initialize() {
         AppBase.initialize();
     }
@@ -18,7 +20,9 @@ class PipButlerApp extends Application.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() as [Views] or [Views, InputDelegates] {
-        return [ new PipButlerView() ];
+        var view = new PipButlerView();
+        _view = view;
+        return [ view, new PipButlerInputDelegate(view) ];
     }
 
     // New app settings have been received so trigger a UI update
